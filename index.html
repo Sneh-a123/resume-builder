@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+</head>
+<body class="bg-[#fafafa]">
+    <section class="flex flex-col md:flex-row justify-between p-5 md:p-10">
+        <!-- Sticky Text -->
+        <div class="flex flex-col w-full md:w-1/2 lg:sticky lg:top-10 self-start">
+          <h3 class="font-bold py-5 text-[20px] md:text-[30px]">Resume Builder</h3>
+          <div class="flex flex-col gap-5 justify-center">
+            <div>
+              <span class="text-gray-500 text-[20px]">Finally,</span>
+              <h1 class="font-semibold text-[40px] leading-tight">A free and open-source resume builder</h1>
+            </div>
+            <p class="text-[20px]">A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume.</p>
+            <a href="./build-resume.html"><button class="cursor-pointer text-center bg-black text-white py-2 w-full md:w-fit px-4 rounded">Get Started</button></a>
+          </div>
+        </div>
+      
+        <!-- Image -->
+        <div class="w-full md:w-1/2 flex justify-center items-start mt-10 md:mt-0">
+          <img class="w-[70%] lg:w-[90%] shadow-xl" src="./image/Blue and Gray Simple Professional CV Resume.jpg" alt="">
+        </div>
+      </section>
+      
+    <section class="flex flex-col justify-center items-center p-10 lg:p-30 gap-20 lg:gap-40">
+        <p class="text-[20px] md:text-[30px] lg:text-[40px] text-center">If this app has helped you with your job hunt, let me know by reaching out through </p>
+        <div class="flex flex-col md:flex-row justify-center md:justify-around md:gap-20 space-y-20 align-item-center text-center">
+            <div class="flex-col justify-center items-center space-y-3">
+                <dt class="font-bold text-3xl lg:text-5xl">27,000+</dt>
+                <dd class="text-[17px] text-gray-500">GitHub Stars</dd>
+            </div>
+            <div>
+                <dt class="font-bold text-3xl lg:text-5xl">650,000+</dt>
+                <dd class="text-[17px] text-gray-500">Users Signed Up</dd>
+            </div>
+            <div>
+                <dt class="font-bold text-3xl lg:text-5xl">840,000+</dt>
+                <dd class="text-[17px] text-gray-500">Resumes Generated</dd>
+            </div>
+        </div>
+    </section>
+    <section class="bg-[#f4f4f5] p-10 lg:p-30 flex-col justify-center items-center gap-20 space-y-10">
+        <h1 class="font-semibold text-[50px] lg:text-center text-sm/15">Templates</h1>
+        <p class="text-[20px] lg:text-[30px]">Explore the templates available in Reactive Resume and view the resumes crafted with them. They could also serve as examples to help guide the creation of your next resume.</p>
+        <!-- Swiper -->
+<div class="swiper mySwiper p-10 lg:p-30 lg:mt-20">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img class="lg:w-[50%] lg:mx-auto" src="./image/Blue and Gray Simple Professional CV Resume.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img class="lg:w-[50%] lg:mx-auto" src="./image/Blue Simple Professional CV Resume.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img class="lg:w-[50%] lg:mx-auto" src="./image/Modern Minimalist CV Resume.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img class="lg:w-[50%] lg:mx-auto" src="./image/Simple Professional CV Resume.jpg" alt="">
+      </div>
+    </div>
+    </section>
+    <section class="p-10 md:p-30 lg:px-10 w-[100%] flex flex-col lg:flex-row justify-center items-center lg:items-start gap-20 space-y-10">
+        <div class="flex-col pr-20 lg:pr-0 justify-center items-center space-y-10 lg:space-y-5 lg:w-[30%]">
+            <h1 class="font-semibold text-[50px] md:text-[70px] lg:text-[30px] text-sm/15 md:text-sm/20 lg:text-sm/10">Frequently Asked Questions</h1>
+            <p class="font-semibold text-[20px] md:text-[30px] lg:text-[13px] text-base/8 md:text-base/10 lg:text-base/5">Here are some questions I often get asked about Reactive Resume.</p>
+            <p class="text-[17px]">Unfortunately, this section is available only in English, as I do not want to burden translators with having to translate these large paragraphs of text.</p>
+        </div>
+        <div class="lg:w-[70%] lg:space-y-5">
+            <details class="">
+                <summary class="text-[25px] lg:text-[20px]">Who are you, and why did you build Resume?</summary>
+                <p class="py-5 text-[17px] text-base/7">I'm Amruth Pillai, just another run-off-the-mill developer working at Elara Digital GmbH in Berlin, Germany. I'm married to my beautiful and insanely supportive wife who has helped me in more ways than one in seeing this project to it's fruition. I am originally from Bengaluru, India where I was a developer at Postman for a short while.</p>
+            </details>
+            <hr class="border-t-1 border-gray-300 my-5">
+            <details>
+                <summary class="text-[25px] lg:text-[20px]">How much does it cost to run Resume?</summary>
+                <p class="py-5 text-[17px] text-base/7">It's not much honestly. DigitalOcean has graciously sponsored their infrastructure to allow me to host Reactive Resume on their platform. There's only the fee I pay to dependent services to send emails, renew the domain, etc.</p>
+            </details>
+            <hr class="border-t-1 border-gray-300 my-5">
+            <details>
+                <summary class="text-[25px] lg:text-[20px]">How can I contribute to Resume?</summary>
+                <p class="py-5 text-[17px] text-base/7">There are many ways you can contribute to Resume. You can star the project on GitHub, share it with your friends, or even just send me a message saying how much you love it. If you're a developer, you can also contribute code to the project.</p>
+            </details>
+            <hr class="border-t-1 border-gray-300 my-5">
+            <details>
+                <summary class="text-[25px] lg:text-[20px]">Other than donating, how can I support you?</summary>
+                <p class="py-5 text-[17px] text-base/7">If you speak a language other than English, sign up to be a translator on Crowdin, our translation management service. You can help translate the product to your language and share it among your community. Even if the language is already translated, it helps to sign up as you would be notified when there are new phrases to be translated.</p>
+            </details>
+            <hr class="border-t-1 border-gray-300 my-5">
+            <details>
+                <summary class="text-[25px] lg:text-[20px]">How does the OpenAI Integration work?</summary>
+                <p class="py-5 text-[17px] text-base/7">OpenAI has been a game-changer for all of us. I cannot tell you how much ChatGPT has helped me in my everyday work and with the development of Reactive Resume. It only makes sense that you leverage what AI has to offer and let it help you build the perfect resume.</p>
+            </details>
+            <hr class="border-t-1 border-gray-300 my-5">
+        </div>
+    </section>
+    <section class="p-10 lg:px-30 w-[100%] flex-col justify-center items-center gap-20 space-y-10">
+        <h1 class="font-semibold text-[30px] text-sm/13 text-center">By the community, for the community.</h1>
+        <p class="text-center font-normal text-[20px]">Resume thrives thanks to its vibrant community. This project owes its progress to numerous individuals who've dedicated their time and skills. Below, we celebrate the coders who've enhanced its features on GitHub and the linguists whose translations on Crowdin have made it accessible to a broader audience.</p>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

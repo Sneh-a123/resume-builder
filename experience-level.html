@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body class="overflow-x-hidden">
+    <h3 class="font-bold p-10 text-[20px] md:text-[30px]">Resume Builder</h3>
+    <section class="p-5 flex flex-wrap justify-center items-center gap-10">
+        <h1 class="cursor-context-menu text-center text-[50px] leading-tight font-extrabold" title="include internships, unpaid jobs, and volunteer work.">How long have you been working?</h1>
+        <p class="text-[20px] text-center">We'll find the best templates for your experience level.</p>
+        <div class="flex flex-wrap justify-center items-center gap-10">
+            <button id="student-que" class="border-1 w-50 h-15 border-blue-500 text-blue-500 rounded-xl cursor-pointer hover:shadow-lg hover:shadow-gray-500 hover:scale-107 transition-all focus:border-3 focus:font-bold">No Experience</button>
+            <button id="student-2-que" class="border-1 w-50 h-15 border-blue-500 text-blue-500 rounded-xl cursor-pointer hover:shadow-lg hover:shadow-gray-500 hover:scale-107 transition-all focus:border-3 focus:font-bold">Less than 3 years</button>
+            <a href="./choose-template.html"><button class="border-1 w-50 h-15 border-blue-500 text-blue-500 rounded-xl cursor-pointer hover:shadow-lg hover:shadow-gray-500 hover:scale-107 transition-all focus:border-3 focus:font-bold">3-5 Years</button></a>
+            <button class="border-1 w-50 h-15 border-blue-500 text-blue-500 rounded-xl cursor-pointer hover:shadow-lg hover:shadow-gray-500 hover:scale-107 transition-all focus:border-3 focus:font-bold">5-10 Years</button>
+            <button class="border-1 w-50 h-15 border-blue-500 text-blue-500 rounded-xl cursor-pointer hover:shadow-lg hover:shadow-gray-500 hover:scale-107 transition-all focus:border-3 focus:font-bold">10+ Years</button>
+        </div>
+    </section>
+    <section id="yesNo" class="hidden p-5 flex-col flex-wrap justify-center items-center gap-10">
+        <h1 class="cursor-context-menu text-center text-[50px] leading-tight font-extrabold">Are you a student?</h1>
+        <div class="flex flex-wrap justify-center items-center gap-10 mt-10">
+            <button id="yesopt" class="border-1 w-50 h-15 border-blue-500 text-blue-500 rounded-xl cursor-pointer hover:shadow-lg hover:shadow-gray-500 hover:scale-107 transition-all focus:border-3 focus:font-bold">Yes</button>
+            <button class="border-1 w-50 h-15 border-blue-500 text-blue-500 rounded-xl cursor-pointer hover:shadow-lg hover:shadow-gray-500 hover:scale-107 transition-all focus:border-3 focus:font-bold">No</button>
+        </div>
+    </section>
+    <section id="education" class="hidden p-10 flex-col flex-wrap justify-center items-center gap-10">
+        <h1 class="cursor-context-menu text-center text-[50px] leading-tight font-extrabold">Select the option that best describes your education level.</h1>
+        <p class="text-[20px] text-center my-5">Your education background can help us guide you through relevant sections for your resume.</p>
+        <div class="flex flex-wrap justify-center items-center gap-10 mt-10">
+            <button class="border-1 w-70 h-17 border-blue-500 text-blue-500 rounded-xl cursor-pointer hover:shadow-lg hover:shadow-gray-500 hover:scale-107 transition-all focus:border-3 focus:font-bold">Secondary School</button>
+            <button class="border-1 w-70 h-17 border-blue-500 text-blue-500 rounded-xl cursor-pointer hover:shadow-lg hover:shadow-gray-500 hover:scale-107 transition-all focus:border-3 focus:font-bold">Vocational Certificate or Diploma</button>
+            <button class="border-1 w-70 h-17 border-blue-500 text-blue-500 rounded-xl cursor-pointer hover:shadow-lg hover:shadow-gray-500 hover:scale-107 transition-all focus:border-3 focus:font-bold">Apprenticeship or Internship Training</button>
+            <button class="border-1 w-70 h-17 border-blue-500 text-blue-500 rounded-xl cursor-pointer hover:shadow-lg hover:shadow-gray-500 hover:scale-107 transition-all focus:border-3 focus:font-bold">Associates</button>
+            <button class="border-1 w-70 h-17 border-blue-500 text-blue-500 rounded-xl cursor-pointer hover:shadow-lg hover:shadow-gray-500 hover:scale-107 transition-all focus:border-3 focus:font-bold">Bachelors</button>
+            <button class="border-1 w-70 h-17 border-blue-500 text-blue-500 rounded-xl cursor-pointer hover:shadow-lg hover:shadow-gray-500 hover:scale-107 transition-all focus:border-3 focus:font-bold">Masters</button>
+            <button class="border-1 w-70 h-17 border-blue-500 text-blue-500 rounded-xl cursor-pointer hover:shadow-lg hover:shadow-gray-500 hover:scale-107 transition-all focus:border-3 focus:font-bold">Doctorate or Ph.D.</button>
+        </div>
+    </section>
+    <script src="./js/experience-level.js"></script>
+</body>
+</html>

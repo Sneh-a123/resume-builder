@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resume Builder</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+</head>
+<body class="bg-white text-gray-900">
+  <h3 class="font-bold px-5 pt-10 text-[20px] md:text-[30px]">
+    Resume Builder
+  </h3>
+
+  <section class="p-5 max-w-7xl mx-auto">
+    <h1 class="text-center text-[30px] md:text-[40px] lg:text-[50px] leading-tight font-extrabold">
+      Choose from our resume templates
+    </h1>
+    <p class="text-[16px] md:text-[20px] text-center mb-10">
+      You can always change your template later.
+    </p>
+
+    <!-- Image Grid Section -->
+    <<div id="template-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <img tabindex="0" class="template-img w-full rounded shadow cursor-pointer" src="./image/Untitled design.jpg" alt="Template 1" />
+        <img tabindex="0" class="template-img w-full rounded shadow cursor-pointer" src="./image/Untitled design (1).jpg" alt="Template 2" />
+        <img tabindex="0" class="template-img w-full rounded shadow cursor-pointer" src="./image/Untitled design (2).jpg" alt="Template 3" />
+        <img tabindex="0" class="template-img w-full rounded shadow cursor-pointer" src="./image/Untitled design (3).jpg" alt="Template 4" />
+        <img tabindex="0" class="template-img w-full rounded shadow cursor-pointer" src="./image/1.jpg" alt="Template 5" />
+        <img tabindex="0" class="template-img w-full rounded shadow cursor-pointer" src="./image/2.jpg" alt="Template 6" />
+        <img tabindex="0" class="template-img w-full rounded shadow cursor-pointer" src="./image/3.jpg" alt="Template 7" />
+        <img tabindex="0" class="template-img w-full rounded shadow cursor-pointer" src="./image/4.jpg" alt="Template 8" />
+        <img tabindex="0" class="template-img w-full rounded shadow cursor-pointer" src="./image/5.jpg" alt="Template 9" />
+        <img tabindex="0" class="template-img w-full rounded shadow cursor-pointer" src="./image/6.jpg" alt="Template 10" />
+        <img tabindex="0" class="template-img w-full rounded shadow cursor-pointer" src="./image/7.jpg" alt="Template 11" />
+        <img tabindex="0" class="template-img w-full rounded shadow cursor-pointer" src="./image/8.jpg" alt="Template 12" />
+      </div>
+  </section>
+  <footer class="fixed bottom-0 w-full bg-gray-300 text-white py-4 text-right px-5">
+    <a href="./contruction.html"><button class="cursor-pointer text-center bg-black text-white py-2 w-full md:w-fit px-15 hover:scale-107 rounded mt-10">Use this Template</button>
+    </a>
+  </footer>
+
+  <script src="./js/choose-template.js"></script>
+</body>
+</html>
